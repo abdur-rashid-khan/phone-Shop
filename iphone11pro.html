@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Phone Shop</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="icon/css/all.min.css">
+	<link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendors/css/animate.css">
+	<link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
+	<!-- Glide Required Core stylesheet -->
+	<link rel="stylesheet" href="vendors/css/glide.core.min.css">
+	<!-- Glide Optional Theme stylesheet -->
+	<link rel="stylesheet" href="vendors/css/glide.theme.min.css">
+	<!-- aos -->
+	<link rel="stylesheet" href="vendors/css/aos.css">
+	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="resources/css/reponsive.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<div class="container">
+				<div class="manu">
+					<div class="logo">
+						<a style="color: rgb(70, 70, 70); font-weight: bold;"  href="#">Phone shop</a>
+					</div> 
+					<div class="allmanuitem">
+						<div class="sameIcon"> 
+							<ul>
+								<li>
+									<a href="#"><i class="fas fa-search"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fas fa-shopping-cart"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fas fa-user-alt"></i></a>
+								</li>
+							</ul>
+							</div>
+					<div class="manuItem">
+						<ul>
+							<li>
+								<a href="#hero">HOME</a>
+							</li>
+							<li>
+								<a href="#discution2">CATEGORY</a>
+							</li>
+							<li>
+								<a href="#pepoleSlider">BLOG</a>
+							</li>
+							<li>
+								<a href="#lastContent">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+				<div class="mobileManu">
+					<ul>
+						<li>
+							<a href="#"><i class="fas fa-search"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fas fa-shopping-cart"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fas fa-user-alt"></i></a>
+						</li>
+						<li>
+							<span onclick="openManu()">&#9776;</span></li>
+						<li>
+					</ul>
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" onclick="closeManu()" class="closebtn">&times;</a>
+						<div class="overlay-content">
+							<a onclick="closeManu()" href="#hero">HOME</a>
+							<a onclick="closeManu()" href="#discution2">CATEGORY</a>
+							<a onclick="closeManu()" href="#pepoleSlider">BLOG</a>
+							<a onclick="closeManu()" href="#lastContent">CONTACT</a>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</nav> 
+    </header>
+    <section id="iphoneSection">
+        <div class="container">
+            <div class="allIphoneText text-center text-info py-3">
+                <h2 class="">Iphone</h2>
+            </div>
+        </div>
+    </section>
+    <section id="iphotoImg" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-sm-6 col-md-6 col-lg-6">
+                    <div id="allIphonePhoto">
+                        <div class="row">
+                        <div class="col-xl-8 col-sm-8 col-md-8 col-lg-8"> 
+                                <div class="IphoneMineImg">
+									<img src="images/banner_01.png" alt=""> 
+								</div>
+                        </div>
+						<div class="col-sm-3 col-md-3 col-lg-3">
+                            <div id="iphonePhotos">
+                                <ul>
+                                    <li>
+                                        <img src="images/products/iPhone/8.jpg" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/products/iPhone/iphone2.jpeg" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/products/iPhone/iphone6.jpeg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-xl-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="iphoneText ">
+                        <h1 style="font-weight: bold;">Apple iPhone XR</h1>
+						<h2 class="text-info"><span style="font-size: 1.6rem; ">$</span>250.99</h2>
+						<div class="text-center">
+							<a href="#" style="font-size: 2.4rem;"> <span style="font-size: 3rem; margin-right: .5rem;">3</span>reviews</a>
+						</div>
+						<hr>
+						<div class="text-muted h3">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt a doloribus iste natus et facere? dolor sit amet consectetur adipisicing elit. Sunt a doloribus iste natus et facere? 
+							</p>
+						</div>
+						<div id="iphoneSection " class="text-center">
+							<div class="color">
+								<label for="color">color</label>
+									<select name="color" id="color">
+										<option value="Blue">Blue</option>
+										<option value="Red">Red</option>
+									</select> 
+							</div>
+							<div class="inches ">
+								<label for="inches">Inches</label>
+									<select name="inches" id="inches">
+										<option value=" 6.65"> 6.65</option>
+										<option value=" 7.75">7.75 </option>
+									</select> 
+							</div>
+						</div>
+						<div class="discuptionphone pt-5" >
+							<ul>
+								<li>
+									<h2  style="margin-bottom: 2rem;" class="from-control">Quantity : <input class="form-control requred d-inline " style="
+										width: 75% !important;
+										font-size: 2rem"  type="text" placeholder="1" value="1"></h2>
+								</li >
+								<l>
+									<h2 style="margin-bottom: 2rem;" > Subtotal: <span> $250.99</span> </h2>
+								</l >
+								<li>
+									<h2 style="margin-bottom: 2rem;">   Product Type: <span>Phone</span> </h2>
+								</li> 
+								<h2 style="margin-bottom: 2rem;"> Brand: <span> Apple</span> </h2> 
+								<li class="">
+									<h2>Availability: <span>In Stock (7 Items)</span></h2>
+								</li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+			<div class="buttonSetion py-5 text-center">
+				<a href="#" class="btn btn-outline-dark">Buy Now</a>
+				<a href="#" class="btn btn-outline-dark">Add Card Now</a>
+			</div>
+        </div>
+    </section>
+	<section id='discuption' class="py-5">
+		<div class="container">
+			<div class="disContent">
+				<div class="disHed">
+					<h1> 
+						Description 
+					</h1>
+					<p class="text-muted">
+						Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.Donec pretium egestas sapien et mollis.
+						</p>
+				</div>
+					<div class="simpleUnorder">
+						<h2>
+							Sample Unordered List.
+						</h2>
+						<p>Comodous in tempor ullamcorper miaculis.</p>
+						<p>Pellentesque vitae neque mollis urna mattis laoreet.</p>
+						<p>Divamus sit amet purus justo.</p>
+						<p>Proin molestie egestas orci ac suscipit risus posuere loremous</p>
+					</div>
+					<div class="simpleOder">
+						<h2>
+							Sample Ordered List.
+						</h2>
+						<p>1.Sample Ordered Lista</p>
+						<p>2.Pellentesque vitae neque mollis urna mattis laoreet.</p>
+						<p>3.Divamus sit amet purus justo.</p>
+						<p>4.Proin molestie egestas orci ac suscipit risus posuere loremous</p>
+					</div>
+					<div class="samplePraText">
+						<h2>Sample Paragraph Text</h2>
+						<p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section id="discution" class="py-5">
+		<div class="container  text-center">
+			<span><i class="fas fa-list"></i></span>
+			<h2>Related Products</h2>
+		</div>
+	</section>
+	<section id="owlSection">
+		<div class="container">
+		<div class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="1s">
+			<div class="items">
+				<div class="img-thum">
+					<div class="imgSize">
+						<img src="images/products/iPhone/iphone3.jpeg" alt="">
+						<div class="hoverIcon">
+							<ul>
+								<li><span><i class="far fa-heart"></i></span></li>
+								<li><span><i class="far fa-comment"></i></span></li>
+								<li>
+									<span><i class="far fa-eye"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>  
+				</div>
+				<div class="text pt-3">
+					<h4>Samsung Galaxy</h4> 
+					<p>$ <span>2000</span> </p>
+					<div class="star-icon">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star-half-alt"></i></span>
+					</div>
+					<a href="#" class="btn btn-outline-primary"> ADD TO CARD</a>
+				</div> 
+			</div>
+			<div class="items">
+				<div class="img-thum">
+					<div class="imgSize">
+						<img src="images/products/headphone/headphone4.jpeg" alt="">
+						<div class="hoverIcon">
+							<ul>
+								<li><span><i class="far fa-heart"></i></span></li>
+								<li><span><i class="far fa-comment"></i></span></li>
+								<li>
+									<span><i class="far fa-eye"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>  
+				</div>
+				<div class="text pt-3">
+					<h4>Sony WH-CH10</h4> 
+					<p>$ <span>200</span> </p>
+					<div class="star-icon">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star-half-alt"></i></span>
+					</div>
+					<a href="#" class="btn btn-outline-primary"> ADD TO CARD</a>
+				</div> 
+			</div> 
+			<div class="items">
+				<div class="img-thum">
+					<div class="imgSize">
+						<img src="images/products/sumsung/samsung5.jpeg" alt="">
+						<div class="hoverIcon">
+							<ul>
+								<li><span><i class="far fa-heart"></i></span></li>
+								<li><span><i class="far fa-comment"></i></span></li>
+								<li>
+									<span><i class="far fa-eye"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>  
+				</div>
+				<div class="text pt-3">
+					<h4>Samsung Galaxy s</h4> 
+					<p>$ <span>2000</span> </p>
+					<div class="star-icon">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star-half-alt"></i></span>
+					</div>
+					<a href="#" class="btn btn-outline-primary"> ADD TO CARD</a>
+				</div> 
+			</div> 
+			<div class="items">
+				<div class="img-thum">
+					<div class="imgSize">
+						<img src="images/products/headphone/headphone12.jpeg" alt="headphone">
+						<div class="hoverIcon">
+							<ul>
+								<li><span><i class="far fa-heart"></i></span></li>
+								<li><span><i class="far fa-comment"></i></span></li>
+								<li>
+									<span><i class="far fa-eye"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="text pt-3">
+					<h4>Sony WH-CH10</h4>
+					<p>$ <span>600</span></p>
+					<div class="star-icon">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star-half-alt"></i></span>
+					</div>
+					<a href="#" class="btn btn-outline-primary"> ADD TO CARD</a>
+				</div> 
+			</div>
+			<div class="items">
+				<div class="img-thum">
+					<div class="imgSize">
+						<img src="images/products/iPhone/iphone2.jpeg" alt="">
+						<div class="hoverIcon">
+							<ul>
+								<li><span><i class="far fa-heart"></i></span></li>
+								<li><span><i class="far fa-comment"></i></span></li>
+								<li>
+									<span><i class="far fa-eye"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div> 
+				</div>
+				<div class="text pt-3">
+					<h4>Iphone XR</h4>
+					<p>$ <span>1500</span> </p>
+					<div class="star-icon">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star-half-alt"></i></span>
+					</div>
+					<a href="#" class="btn btn-outline-primary"> ADD TO CARD</a>
+				</div>  
+			</div>
+			<div class="items">
+				<div class="img-thum">
+					<div class="imgSize">
+						<img src="images/products/sumsung/samsung3.jpeg" alt="">
+						<div class="hoverIcon">
+							<ul>
+								<li><span><i class="far fa-heart"></i></span></li>
+								<li><span><i class="far fa-comment"></i></span></li>
+								<li>
+									<span><i class="far fa-eye"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>  
+				</div>
+				<div class="text pt-3">
+					<h4>Samsung Galaxy</h4> 
+					<p>$ <span>2000</span> </p>
+					<div class="star-icon">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star-half-alt"></i></span>
+					</div>
+					<a href="#" class="btn btn-outline-primary"> ADD TO CARD</a>
+				</div> 
+			</div> 
+		</div>
+	</div>
+	</section>
+	<footer id="lastContent" class="py-5">
+		<div class="container">
+			<div class="row pt-3">
+				<div class="col-sm-6 col-md-3 col-lg-3  ">
+					<div class="footerConter">
+						<div class="footerHeader">
+							<h3 class="pt-4">EXTRAS</h3>
+						</div>
+						<div id="footerConten">
+							<ul style="padding: 0; margin: 0;">
+								<li><a href="#">Gift Certificates</a></li>
+								<li><a href="#"> Brands</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">Specials</a></li>
+								<li><a href="#">Site Map</a></li> 
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3">
+					<div class="footerConter">
+						<div class="footerHeader">
+							<h3 class="pt-4">INFORMATION</h3>
+						</div>
+						<div id="footerConten">
+							<ul style="padding: 0; margin: 0;"> 
+								<li><a href="#"> About Us</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Contact Us</a></li> 
+								<li><a href="#">Site Map</a></li> 
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3">
+					<div class="footerConter  ">
+						<div class="footerHeader">
+							<h3 class="pt-4">MY ACCOUNT</h3>
+						</div>
+						<div id="footerConten">
+							<ul style="padding: 0; margin: 0;">
+								<li><a href="#">My Account</a></li>
+								<li><a href="#"> Order History</a></li>
+								<li><a href="#">Wish List</a></li>
+								<li><a href="#">Newsletter</a></li>
+								<li><a href="#">Returns</a></li> 
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3">
+					<div class="footerConter ">
+						<div class="footerHeader">
+							<h3 class="pt-4">CONTACT US</h3>
+						</div>
+						<div id="footerConten">
+							<ul style="padding: 0; margin: 0;">
+								<li><a href="#">42 Dream House, Dreammy street, 7131 Dreamville, USA</a></li>
+								<li><a href="#"> company@gmail.com
+								</a></li>
+								<li><a href="#">456-456-4512</a></li>
+								<li><a href="#">Dream City, USA</a></li> 
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="me" class="pt-5 text-center">
+				<h3  style="color:#f57206af;">Desing by <span style="color:#3bfb0059;"> Rashid khan</span></h3>
+			</div>
+		</div>
+	</footer>
+    <script src="vendors/js/jQuery.js"></script>
+	<script src="vendors/js/bootstrap.min.js"></script>
+	<script src="vendors/js/popper.min.js"></script>
+	<script src="vendors/js/glide.min.js"></script>
+	<script src="vendors/js/aos.js"></script>
+	<script src="vendors/js/owl.carousel.min.js"></script>
+	<script src="vendors/js/wow.min.js"></script>
+	<script src="vendors/js/owl.carousel.min.js"></script>
+	<script src="vendors/js/jquery.waypoints.min.js"></script>
+	<script src="vendors/js/mixitup.min.js"></script>
+	<!-- personal file -->
+	<script src="resources/js/products.js"></script>
+	<script src="resources/js/slider.js"></script>
+	<script src="resources/js/min.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+
+@media only screen and (max-width:992px){
+    html{
+        font-size: 45%;
+    }
+    #hero #slider .carousel-inner .heroText {
+        top: 50%;
+        right: 50%;
+        transform: translate(-10%,30%);
+        -webkit-transform: translate(-10%,30%);
+        -moz-transform: translate(-10%,30%);
+        -ms-transform: translate(-10%,30%);
+        -o-transform: translate(-10%,30%);
+}
+    #imgSazing {
+        max-width: 50%;
+        max-height: 100%;
+        margin-left: 10rem;
+    }
+    #owlSection .img-thum img {
+        max-width: 40%;
+        max-height: 26rem;
+    }
+}
+@media only screen and (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    #hero #slider .carousel-inner img{
+        width: 100%; 
+    }
+#hero #slider .carousel-inner .heroText {
+    top: 50%;
+    right: 50%;
+    transform: translate(-10%,30%);
+    -webkit-transform: translate(-10%,30%);
+    -moz-transform: translate(-10%,30%);
+    -ms-transform: translate(-10%,30%);
+    -o-transform: translate(-10%,30%);
+}
+    #lastContent{
+        text-align: center; 
+    }
+
+}
+@media only screen and (max-width:767px) {
+    html{
+        font-size: 54%;
+    }
+    #hero #slider .carousel-inner .heroText {
+        top: 0%;
+        right: 0%;
+        transform: translate(0%,0%);
+        -webkit-transform: translate(0%,0%);
+        -moz-transform: translate(0%,0%);
+        -ms-transform: translate(0%,0%);
+        -o-transform: translate(0%,0%);
+    }
+    #imgSazing {
+        max-width: 25%;
+        max-height: 100%;
+        margin-left: 25rem;
+}
+.mainProducts .img-thum .imgSize img {
+    position: relative;
+    max-width: 65%;
+    max-height: 28rem;
+}
+.mainProducts .imgSize:hover .hoverIcon {
+    visibility: hidden;
+}
+#owlSection .img-thum:hover .hoverIcon {
+    visibility: hidden;
+}
+#sumsung {
+    width: 50%;
+    height: 27%;
+}
+#owlSection .img-thum img {
+    max-width: 50%;
+    max-height: 20rem;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
+    margin-left: 0rem;
+}
+#iphotoImg #allIphonePhoto #iphonePhotos ul li img {
+    max-width: 140%;
+    padding: 1rem;
+    border: .1rem solid red;
+        border-bottom-color: red;
+        border-bottom-style: solid;
+        border-bottom-width: 0.1rem;
+    border-bottom: none; 
+}
+#iphoneSection\ {
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+}
+@media only screen and (max-width:667px) {
+    header nav .allmanuitem{
+        display: none;
+    }
+    header nav .mobileManu{
+        display: block;
+    }
+    header nav .manu .logo {
+        float: left;
+        padding-top: 1rem;
+    }
+    #hero #slider .carousel-inner img{
+        width: 100%;  
+        margin-left: 32rem;
+    }
+    
+#owlSection .img-thum img {
+    max-width: 50%;
+    max-height: 30rem;
+    margin-left: 0rem;
+}
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 50%;
+        margin-left: 0rem;
+    }
+    #topProducts .row .topProductsContent .topProductsImg img {
+        max-width: 28rem;
+        max-height: 24rem;
+        float: left;
+    }
+    #sumsung {
+        width: 40%;
+        height: 27%;
+    }
+    html{
+        font-size: 35%;
+    }
+    #iphotoImg #allIphonePhoto .IphoneMineImg img {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width:575px) {
+#owlSection .img-thum img {
+    max-width: 45%;
+    max-height: 30rem;
+    margin-left: 0rem;
+    }
+    #sumsung {
+        width: 19%;
+        height:auto;
+    } 
+    #hero #slider .carousel-inner img {
+    
+        width: 100%;
+        margin-left: 34rem;
+    
+    }
+    #iphotoImg #allIphonePhoto #iphonePhotos ul li img {
+        max-width: 28%;
+        padding: 1rem;    
+        border-bottom: none;
+        text-align: center; 
+        margin-left: 3.5rem;
+        border: none;
+    }
+    #iphotoImg #allIphonePhoto #iphonePhotos {
+        margin-top: 2%;
+    }
+    #iphotoImg #allIphonePhoto .IphoneMineImg img {
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+        margin-left: 21rem;
+    }
+}
+@media only screen and (max-width:450px) {
+    #hero #slider .carousel-inner img {
+        width: 100%;
+        margin-left: 30rem;
+    }
+    #owlSection .img-thum img {
+        max-width: 15%;
+        max-height: 20rem;
+    }
+    #owlSection .img-thum img {
+        max-width: 37%;
+        max-height: 23rem;
+        margin-left: 3rem;
+    }
+    html{
+        font-size: 30%;
+    }
+}
+@media only screen and (max-width:380px) {
+    html{
+        font-size: 25%;
+    } 
+    #hero #slider .carousel-inner img {
+        width: 100%;
+        margin-left: 30rem;
+    }
+}
